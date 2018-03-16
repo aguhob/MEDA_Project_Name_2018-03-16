@@ -1,0 +1,16 @@
+How do you make an image's background transparent with Gimp?
+
+Googled and found this answer: https://graphicdesign.stackexchange.com/questions/5446/making-the-background-of-an-image-transparent-in-gimp
+
+To make the solid background of an image transparent, add an Alpha channel, and use the Magic Wand to select the background. Then, use the Color Picker tool to select the background color, which becomes the foreground color in Toolbox. Use the Bucket Fill tool with the selected color.
+
+
+How do you turn a cursor into a pointer in javascript?
+https://stackoverflow.com/questions/8809909/change-cursor-to-finger-pointer
+
+<a class="menu_links" onclick="displayData(11,1,0,'A')" onmouseover="" style="cursor: pointer;"> A </a>
+It's css.
+
+Or in a style sheet:
+
+a.menu_links { cursor: pointer; }
